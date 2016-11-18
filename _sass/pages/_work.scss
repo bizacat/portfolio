@@ -1,0 +1,143 @@
+.work {
+  
+  .work-filter {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      border-right: 1px solid #c6c6c6;
+      padding-right: 5px;
+      &.active, &:hover {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+  
+  section {
+    a {
+      padding-top: 80px;
+      display: inline-block;
+    }
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
+  h2 {
+    color: black;
+  }
+  p {
+    color: grey;
+  }
+  .brand .tag {
+    background: #2242b5;
+  }
+  .ux .tag {
+    background: orange;
+    color: #000000;
+  }
+  .visual .tag {
+    background: #6511a1;
+  }
+  .side-project .tag {
+    background: #d71436;
+  }
+  .tag {
+    padding: 8px 10px;
+    color: #ffffff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: blue;
+    z-index: 99;
+    display: block;
+  }
+
+  @media screen and (max-width: 992px) {
+    section {
+      padding: 0 5%;
+      & > div {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+.project-page {
+  h2 {
+    margin: 40px auto 10px;
+  }
+  h3 {
+    margin: 30px auto 10px;
+  }
+  h4 {
+    color: grey;
+    margin: 10px auto;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  strong, a {
+    font-weight: normal;
+  }
+  img {
+    margin: 30px auto 0;
+    & + * {
+      margin-top: 30px;
+    }
+    & + .caption {
+      margin-top: 0;
+    }
+  }
+  .caption {
+    background: #f7f7f7;
+    display: block;
+    padding: 15px;
+    color: grey;
+    font-weight: 100;
+    font-style: italic;
+  }
+  img + h2 {
+    margin-top: 0
+  }
+  p {
+    line-height: 1.75;
+    margin-bottom: 30px;
+  }
+  ul {
+    color: grey;
+    li {
+      margin-bottom: 15px;
+    }
+    strong {
+      color: black;
+    }
+  }
+  article {
+    font-weight: 100;
+    padding: 30px;
+    h3 {
+      margin-top: 0;
+    }
+    &.cons {
+      background-color: rgba(255, 134, 97, 0.125);
+    }
+    &.pros {
+      background-color: rgba(158, 192, 35, 0.12);
+    }
+    li {
+      padding-bottom: 10px;
+    }
+  }
+  
+  #demo-link {
+    margin-top: 30px;
+    display: block;
+  }
+}

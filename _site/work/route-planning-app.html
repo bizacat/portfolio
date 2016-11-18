@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>route planning webapp</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="canonical" href="http://yourdomain.com/work/route-planning-app">
+  <link rel="alternate" type="application/rss+xml" title="Bizacat" href="http://yourdomain.com/feed.xml" />
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <link rel="stylesheet" href="/vendor/unslider-master/dist/css/unslider.css">
+  <link rel="stylesheet" href="/vendor/unslider-master/dist/css/unslider-dots.css">
+
+  <script src="https://use.typekit.net/jtb0llb.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Bizacat</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li><a class="page-link work" href="/work/">work</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a class="page-link contact" href="/contact/">contact</a></li>
+          
+        
+          
+            <li><a class="page-link about" href="/about/">about</a></li>
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="project-page container route planning webapp">
+
+  <section class="intro">
+    <div class="row">
+        <div class="col-xs-12">
+            <a class="back" href="/work">< Back to work</a>
+            <a class="next" href="/work">Next ></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="title">Route Planning App</h1>
+            <img src="/images/mobi-route-app/new-route-1.png">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Who</h2>
+            <p>
+                mobi is a Software as a Service (SaaS) developer for service and delivery businesses that operate fleets of vehicles. mobi provides a suite of applications ranging from GPS tracking, route optimization, to analytics to help manage and improve operations for these industries.
+            </p>
+            <h2>What</h2>
+            <p>
+                Of the 10 web-based applications that serves every phase of the [fleet] business cycle, two involve the planning of driver routes. One
+                involves multi-day planning (mobi.Plan) typically used by the largest enterprise customers with hundreds and thousands of vehicles and branches
+                to operate. This case study covers mobi.Route, which focuses on daily planning– at most covering plans up to a week out.
+            </p>
+            <p>
+                An existing application was massive, complex, and difficult to update due to a combination of out-dated
+                technology and tricky interlaced dependencies that made for a very fragile internal ecosystem. It was also very challenging to operate,
+                had a large learning curve, and required a dedicated team of mobi's employees to frequently assist their main users in navigating the app.
+            </p>
+            <h2>Why</h2>
+            <p>
+                The main reasons for wanting to rebuild mobi.Route were to:
+            </p>
+            <ul>
+                <li>recreate the APIs and back-end from the ground up</li>
+                <li>improve the usability of the tool</li>
+                <li>add new features that would make router's lives easier</li>
+                <li>streamline interactions both within and across applications</li>
+                <li>update the UI to remain consistent with other newer mobi products</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>The before</h2>
+            <div class="slider">
+                <ul>
+                    <li><img src="/images/mobi-route-app/eso-route-1.png"></li>
+                    <li><img src="/images/mobi-route-app/eso-route-2a.png"></li>
+                    <li><img src="/images/mobi-route-app/eso-route-2b.png"></li>
+                    <li><img src="/images/mobi-route-app/eso-route-3.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>The research</h2>
+            <p>
+                Before starting on planning for this project, I was fortunate enough to be able to visit one of mobi's customers, a
+                large telecom service company in Illinois.  For two days I had the chance to sit down with several of their routers and dispatchers
+                using the original versions of mobi.Route and mobi.Dispatch, ask questions, observe, and gather as much valuable insight
+                and feedback as I could. I documented much of it <a href="/work/ethnographic-research">in this case study</a> on ethnographic research.
+            </p>
+            <h3>A summary of my findings:</h3>
+            <h5>The good</h5>
+            <ul>
+                <li>The colorful schedule boards were heavily utilized for getting <strong>at-a-glance information about the day quickly</strong></li>
+                <li>
+                    Users were <strong>able to check for poorly distributed work across</strong> resources (drivers) or gaps in their schedules that
+                    could be filled with new jobs
+                </li>
+                <li>
+                    <strong>On-time arrival percentages</strong> were one of the most critical metrics to evaluate performance for a daily plan (this company
+                    insisted on achieving at least 97.0% OTA)
+                </li>
+                <li>It was helpful to have an <strong>easily accessible list of all assigned and unassigned jobs</strong>, along with their metrics, specifications, and addresses</li>
+            </ul>
+            <h5>The bad</h5>
+            <ul>
+                <li><strong>No ability to filter or sort</strong> the schedule board (specifically mentioned by a router)</li>
+                <li>
+                    Each user had 3 separate monitors with different windows open, some of which were supplemental internal tools to assist them
+                    with tasks that <strong>mobi.Route did not have features for</strong>
+                </li>
+                <li>
+                    When a user wanted to make a change to anything within the plan (resource information, job details, availability, assignments, etc.),
+                    entirely new tabs had to be opened (see above screenshots for example– Planning and Configuration Tabs).  There is <strong>no direct linking or
+                    flow in between tasks</strong>, so users were having to copy and paste or check multiple screens to type in names and ID numbers.
+                </li>
+                <li>
+                    A very outdated and nearly <strong>unusable map</strong> that is almost not worth mentioning and never used
+                </li>
+                <li>
+                    When assigning or reassigning a job to a resource, the user has <strong>no indication of geographical proximity</strong> between resource or job without
+                    clicking on each individually and reading the address. Context is lost.
+                </li>
+                <li>
+                    In the list view showing all draft and committed plans for a day (and other days), <strong>key metrics like on-time arrival aren't displayed</strong>, so users
+                    must click and load each plan to check the value.
+                </li>
+                <li>Plan refreshing/processing progress was unclear, leading to <strong>a lot of page refreshing</strong> while waiting for changes to update</li>
+            </ul>
+            <h5>The interesting</h5>
+            <ul>
+                <li>
+                    Users were <strong>adding labels to a resource's name field</strong> (unexpected use case to fill an unmet need) so they could quickly
+                    see what skill sets each resource was capable of
+                </li>
+                <li>
+                    No matter how late a job was (30 seconds or 30 minutes), it would equally impact the on-time arrival percentage greatly, so users
+                    were <strong>manually editing (fudging) job lengths or tech abilities</strong> so they could fit in without going outside of a time window.
+                </li>
+                <li>
+                    It was <strong>unclear what occurred when the system automatically made changes</strong> to a plan due to resource and job updates happening in
+                    real-time, and new plans that they themselves chose to run with new configurations. This led to multiple hypotheses without clear data.
+                </li>
+                <li>
+                    Users liked being able to see when and by who a plan was created or modified, but they also <strong>wanted to know what changed</strong>. Many
+                    would use the plan name field to also add details about what was new in the plan (ex: July 10 - SO29503110 reassignment)
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Synthesis</h2>
+            <p>
+                That was a lot to take in! But the feedback I got on that trip was invaluable and helped us get a kickstart on where to go with the new mobi.Route
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="slider-xd-route">
+                <ul>
+                    <li><img src="/images/mobi-route-app/xd-route-1.png"></li>
+                    <li><img src="/images/mobi-route-app/xd-route-2.png"></li>
+                    <li><img src="/images/mobi-route-app/xd-route-3.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function() {
+        $('.slider-xd-route').unslider();
+    });
+</script>
+
+
+</div>
+
+    <!--<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Bizacat</h3>
+        <p>E-mail: <a href="mailto:your-email@domain.com">your-email@domain.com</a></p>
+
+        
+        <p>GitHub: <a href="https://github.com/jekyll">jekyll</a></p>
+        
+
+        
+        <p>Twitter: @<a href="https://twitter.com/jekyllrb">jekyllrb</a></p>
+        
+
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+  </div>
+</footer>
+-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+
+    <script src="/vendor/unslider-master/dist/js/unslider-min.js"></script>
+    <script src="/javascripts/helpers.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider').unslider();
+        });
+    </script>
+  </body>
+</html>

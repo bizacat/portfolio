@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$brand-color: blue;
+$brand-font:  'filson soft', 'open sans', sans-serif;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "bootstrap-custom-variables", // Custom variables must load before bootstrap.
+  "bootstrap"
+;
+
+@import "layout",
+        "components/button",
+        "includes/navbar",
+        "pages/home",
+        "pages/project-page",
+        "pages/work";

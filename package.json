@@ -1,0 +1,20 @@
+{
+  "name": "jekyll-bootstrap-sass",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project for Jekyll, which is bundled with bootstrap-sass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irmbrady/jekyll-bootstrap-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irmbrady/jekyll-bootstrap-sass/issues"
+  },
+  "homepage": "https://github.com/irmbrady/jekyll-bootstrap-sass#readme",
+  "dependencies": {}
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: 'Helvetica', 'open sans', sans-serif;
+  font-size: 18px;
+}
+
+a, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+
+p, ul, li {
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $brand-font;
+}
+
+
+.project-page.container {
+  max-width: 1020px;
+}
+
+// Page nav
+
+.back {
+  float: left;
+}
+
+.next {
+  float: right;
+}

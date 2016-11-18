@@ -1,0 +1,40 @@
+.project-page {
+
+  img {
+    border: 1px solid #f7f7f7;
+  }
+
+
+  .unslider-arrow {
+    bottom: 50%;
+    background: blue;
+    color: white;
+    padding: 10px;
+    &:hover {
+      background: black;
+    }
+
+    &.next {
+      right: -40px;
+    }
+    &.prev {
+      left: -40px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .unslider {
+      position: relative;
+    }
+    .unslider-arrow {
+      bottom: 8%;
+      &.next {
+        right: 0;
+      }
+      &.prev {
+        left: 0;
+      }
+    }
+  }
+
+}
